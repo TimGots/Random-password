@@ -1,0 +1,123 @@
+body {
+    height: 678px;
+    display: flex;
+    justify-content: center;
+    margin: 62px 0px;
+    background-color: #1C1C1C;
+}
+
+.main {
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+}
+
+.heading {
+    height: 80px;
+    width: 354px;
+    margin-left: 52px;
+    margin-top: 115px;
+    font-family: 'Karla', 'Fjalla One', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 3px black;
+    margin-bottom: 0;
+}
+
+#green {
+    color: #4ADF86;
+}
+
+#support {
+    font-family: 'Inter', 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    width: 372px;
+    height: 28px;
+    margin-left: 52px;
+    margin-top: 0px;
+    font-style: normal;
+    color: #D5D4D8;
+    margin-bottom: 0;
+
+}
+
+.gen {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 52px;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    position: absolute;
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: 0;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+
+.gen:hover {
+    color: #10B981;
+    background-color: #FFFFFF;
+}
+
+.line {
+    display: flex;
+    margin-left: 52px;
+    margin-top: 120px;
+    width: 446px;
+    border-bottom: 5px solid #2F3E53;
+}
+
+.output {
+    width: 211px;
+    height: 39px;
+    margin-left: 52px;
+    margin-top: 30px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+}
+
+.output1 {
+    width: 211px;
+    height: 39px;
+    margin-left: 24px;
+    margin-top: 30px;
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #55F991;
+}
+
+.position {
+    display: flex;
+}
