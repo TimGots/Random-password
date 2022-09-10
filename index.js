@@ -4,6 +4,7 @@ let outOne = document.getElementById("passwordone-el")
 let outTwo = document.getElementById("passwordtwo-el")
 let passwordLength = 12
 function generate(){
+    console.log("Clicked")
 function getRandomCharacter() {
     let randomChar = Math.floor(Math.random() * characters.length)
     return characters[randomChar]
